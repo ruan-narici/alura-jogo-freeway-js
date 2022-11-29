@@ -1,0 +1,24 @@
+1 - Carregar o material;
+2 - Inserir o material no código;
+3 - Animar o carro;
+4 - Animar o ator;
+---
+5 - Criar um arquivo js para: 
+ . Carregar arquivos de imagens;
+ . Ator;
+ . Carro; 
+6 - Referenciar estes arquivos no HTML;
+7 - Inserir novos carros;
+8 - Animar os carros com velocidades diferentes;
+9 - Fazer o carro entrar em loop;
+---
+10 - Criar uma lista para armazenar todos os valores em uma variável;
+ . Substituir as variáveis existentes pelo índice da lista;
+ . Com essa alteração, iremos reduzir a quantidade de códigos e linhas;
+11 - Criar um laço de repetição FOR para reduzir mais ainda a quantidade de linhas e códigos;
+ . Exemplo:
+let nome = ["Ruan","Nayara","Cínthia"];
+for (let i = 0; i < nome.length; i += 1){
+	print("Olá " + nome[i])
+}
+---
