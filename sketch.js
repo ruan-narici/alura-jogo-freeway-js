@@ -9,4 +9,7 @@ function draw() {
   moveCar();
   moveActor_1();
   returnOriginalPosition();
+  verifyColisionWithActor(); 
+  addPoints();
+  showPoints();
 }

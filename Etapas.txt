@@ -22,3 +22,8 @@ for (let i = 0; i < nome.length; i += 1){
 	print("Olá " + nome[i])
 }
 ---
+12 - Verificar colisão do carro com o ator;
+13 - Fazer o ator voltar ao ponto inicial após uma colisão;
+14 - Inserir mais 3 carros;
+15 - Criar um sistema de contagem de ponto;
+16 - 
