@@ -1,5 +1,6 @@
 function setup() {
   createCanvas(600, 400);
+  sounds[0].loop();
 }
 
 function draw() {

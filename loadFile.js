@@ -5,6 +5,10 @@ let imgCars;
 let imgCar1;
 let imgCar2;
 let imgCar3;
+let sounds;
+let soundBKG;
+let soundColision;
+let soundPoint;
 
 // Função de carregamento de arquivo
 function preload(){
@@ -14,4 +18,8 @@ function preload(){
   imgCar2 = loadImage("./img/carro-2.png");
   imgCar3 = loadImage("./img/carro-3.png");
   imgCars = [imgCar1, imgCar2, imgCar3, imgCar1, imgCar3, imgCar2];
+  soundBKG = loadSound("./sound/trilha.mp3");
+  soundColision = loadSound("./sound/colidiu.mp3");
+  soundPoint = loadSound("./sound/pontos.wav");
+  sounds = [soundBKG, soundColision, soundPoint];
 }
