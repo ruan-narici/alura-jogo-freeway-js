@@ -15,7 +15,8 @@ function moveActor_1(){
   if (keyIsDown(UP_ARROW)){
     yimgActor_1 -= vimgActor_1;
   }
-    if (keyIsDown(DOWN_ARROW)){
+    if (keyIsDown(DOWN_ARROW) && 
+       yimgActor_1 < 365){
     yimgActor_1 += vimgActor_1;
   }
 }
@@ -31,9 +32,8 @@ function verifyColisionWithActor(){
         ximgCars[i] + wimgCar > ximgActor_1 - rimgActor_1 &&
        yimgCars[i] >= yimgActor_1 - rimgActor_1 &&
        yimgCars[i] <= yimgActor_1 + rimgActor_1){
-      print("Colidiu");
-      Points -= 1;
-      goToOriginalPosition();
+        verifyPointLoss();
+        goToOriginalPosition();
     }
   }
 }

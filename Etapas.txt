@@ -26,4 +26,9 @@ for (let i = 0; i < nome.length; i += 1){
 13 - Fazer o ator voltar ao ponto inicial após uma colisão;
 14 - Inserir mais 3 carros;
 15 - Criar um sistema de contagem de ponto;
-16 - 
+---
+16 - Criar uma condição para que os pontos não fiquem negativos;
+17 - Criar uma condição para que o ator não saia da tela;
+18 - Carregar sons;
+19 - Inserir sons;
+20 - 
